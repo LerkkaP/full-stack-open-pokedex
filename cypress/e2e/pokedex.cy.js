@@ -5,11 +5,11 @@ describe('Pokedex', function() {
     cy.contains('Pokémon and Pokémon character names are trademarks of Nintendo.')
   })
   it('Pokemon can be navigated to', function() {
-    cy.visit('http://localhost:5000');
+    cy.visit('http://localhost:5000')
 
-    cy.get('.list-item[href="/pokemon/squirtle"]').click();
+    cy.get('.list-item[href="/pokemon/squirtle"]').click()
 
-    cy.url().should('include', '/pokemon/squirtle');
+    cy.url().should('include', '/pokemon/squirtle')
     cy.contains('squirtle')
     cy.contains('rain dish')
   })
