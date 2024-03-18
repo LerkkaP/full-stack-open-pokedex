@@ -1,3 +1,5 @@
+app = "full-stack-open-pokedex-erik"
+
 [env]
   PORT = "3000" # add this where PORT matches the internal_port below
 
