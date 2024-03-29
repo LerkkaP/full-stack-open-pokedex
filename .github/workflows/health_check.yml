@@ -12,4 +12,4 @@ jobs:
       - name: Periodic health check
         uses: jtalk/url-health-check-action@v4
         with:
-          urls: 'https://full-stack-open-pokedex-erik.fly.dev/'
+          url: 'https://full-stack-open-pokedex-erik.fly.dev/'
